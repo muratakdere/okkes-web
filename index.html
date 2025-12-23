@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebapçı Ökkeş - İşletmenizi Cebinizden Yönetin</title>
+    <meta name="description" content="Kebapçı Ökkeş uygulaması ile gelir, gider, stok ve personel takibi artık çok kolay.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo" id="logo-link">
+                <img src="assets/images/logo.png" alt="Kebapçı Ökkeş Logo">
+                Kebapçı Ökkeş
+            </a>
+            <div class="header-right">
+                <nav class="nav">
+                    <a href="#features" data-i18n="nav_features">Özellikler</a>
+                    <a href="#gallery" data-i18n="nav_screens">Ekranlar</a>
+                </nav>
+                <div class="header-controls">
+                    <button id="lang-toggle" class="btn-lang">
+                        EN
+                    </button>
+                    <a href="#contact" class="btn btn-sm" data-i18n="nav_contact">İletişime Geç</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 data-i18n="hero_title">İşletmenizin Tüm Kontrolü <span class="highlight">Tek Uygulamada</span></h1>
+                    <p data-i18n="hero_desc">Gelir-gider takibi, stok yönetimi, personel maaşları ve gün sonu raporları. Kebapçı Ökkeş ile restoranınızı veriye dayalı yönetin.</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary"><span data-i18n="hero_btn_start">Hemen Başlayın</span> <span class="material-icons-round">arrow_forward</span></a>
+                        <a href="#gallery" class="btn btn-secondary" data-i18n="hero_btn_view">Ekranları İncele</a>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <strong>%100</strong>
+                            <span data-i18n="stat_local">Yerli Yazılım</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>7/24</strong>
+                            <span data-i18n="stat_support">Canlı Destek</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <img src="assets/images/dashboard_main.jpg" alt="Uygulama Ana Ekranı">
+                    </div>
+                    <div class="floating-card card-1">
+                        <span class="material-icons-round">trending_up</span>
+                        <div>
+                            <span data-i18n="card_daily_income">Günlük Ciro</span>
+                            <strong>+120.000₺</strong>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <span class="material-icons-round">inventory_2</span>
+                        <div>
+                            <span data-i18n="card_stock_tracking">Stok Takip</span>
+                            <strong data-i18n="card_auto">Otomatik</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="feature_title">Neler Yapabilirsiniz?</h2>
+                    <p data-i18n="feature_desc">Restoran yönetiminde ihtiyacınız olan her şey düşünüldü.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-box green">
+                            <span class="material-icons-round">attach_money</span>
+                        </div>
+                        <h3 data-i18n="feat_finance_title">Finans Yönetimi</h3>
+                        <p data-i18n="feat_finance_desc">Günlük ciro, giderler ve net kâr analizi. Nakit, kredi kartı ve paket servis gelirlerini ayrı ayrı takip edin.</p>
+                        <img src="assets/images/finance_summary.jpg" alt="Finans Ekranı" class="feature-img">
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box blue">
+                            <span class="material-icons-round">inventory</span>
+                        </div>
+                        <h3 data-i18n="feat_stock_title">Stok Takibi</h3>
+                        <p data-i18n="feat_stock_desc">Ürün giriş-çıkışları, zayi/fire takibi ve anlık stok durumu. Kritik stok seviyelerinde haberdar olun.</p>
+                        <img src="assets/images/stock_list.jpg" alt="Stok Ekranı" class="feature-img">
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box orange">
+                            <span class="material-icons-round">people</span>
+                        </div>
+                        <h3 data-i18n="feat_personnel_title">Personel Yönetimi</h3>
+                        <p data-i18n="feat_personnel_desc">Personel takibi. Saatlik veya aylık ücretlendirme, maaş ödemeleri ve performans takibi.</p>
+                        <img src="assets/images/personnel_categories.jpg" alt="Personel Ekranı" class="feature-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="gallery_title">Uygulama Görselleri</h2>
+                    <p data-i18n="gallery_desc">Kullanıcı dostu arayüz ve kolay kullanım.</p>
+                </div>
+                <div class="gallery-scroll">
+                    <div class="gallery-item"><img src="assets/images/dashboard_main.jpg" alt="Ana Sayfa"></div>
+                    <div class="gallery-item"><img src="assets/images/finance_list.jpg" alt="Gelir Gider Listesi"></div>
+                    <div class="gallery-item"><img src="assets/images/stock_movement.jpg" alt="Stok Hareketleri"></div>
+                    <div class="gallery-item"><img src="assets/images/add_stock_modal.jpg" alt="Stok Ekleme"></div>
+                    <div class="gallery-item"><img src="assets/images/personnel_detail.jpg" alt="Personel Detay"></div>
+                    <div class="gallery-item"><img src="assets/images/add_personnel.jpg" alt="Personel Ekle"></div>
+                    <div class="gallery-item"><img src="assets/images/income_modal.jpg" alt="Gelir Ekle"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta">
+            <div class="container cta-content">
+                <h2 data-i18n="cta_title">İşletmenizi Dijitalleştirin</h2>
+                <p data-i18n="cta_desc">Kebapçı Ökkeş uygulaması ile kağıt kalem devri kapandı. Hemen geçiş yapın.</p>
+                <div class="cta-form-wrapper">
+                    <button class="btn btn-white btn-lg" data-i18n="cta_btn">Bize Ulaşın</button>
+                    <span class="or-text" data-i18n="or">veya</span>
+                    <a href="tel:+905380621943" class="phone-link">+90 538 062 1943</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Büyütülmüş Görsel">
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kebapçı Ökkeş Yazılımı. <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
